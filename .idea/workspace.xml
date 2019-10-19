@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1b5fe95-cb7d-43f7-b865-9f38b6fa4b78" name="Default Changelist" comment="1.3.4">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/Bag$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/Bag$BagIterator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/Bag$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/Bag.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/Parentheses.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/Queue$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/Queue$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/Queue$QueueIterator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/Queue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/Stack$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/Stack$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/Stack$StackIterator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/Stack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/temp/myTestFile.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/FixedCapacityStackOfStrings.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/FixedCapacityStackOfStrings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/NodeOpration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/NodeOpration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/Status.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/part1_3/Status.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/temp/part1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms/com/algorithms/temp/part1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithms/part1_3/Parentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithms/part1_3/Parentheses.java" afterDir="false" />
-    </list>
+    <list default="true" id="f1b5fe95-cb7d-43f7-b865-9f38b6fa4b78" name="Default Changelist" comment="1.3.4" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +131,7 @@
       <workItem from="1571298318694" duration="13615000" />
       <workItem from="1571374900708" duration="5446000" />
       <workItem from="1571467220336" duration="6854000" />
-      <workItem from="1571475666765" duration="260000" />
+      <workItem from="1571475666765" duration="639000" />
     </task>
     <servers />
   </component>
