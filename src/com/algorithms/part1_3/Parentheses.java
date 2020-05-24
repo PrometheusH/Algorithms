@@ -1,7 +1,6 @@
 package com.algorithms.part1_3;
 
-import com.zjh.algorithms.StdIn;
-import com.zjh.algorithms.StdOut;
+import com.algorithms.stdlib.StdIn;
 
 /**
  * 一个Stack用例，判断括号使用是否正确

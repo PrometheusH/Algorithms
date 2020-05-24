@@ -1,6 +1,6 @@
 package com.algorithms.part1_3;
 
-import com.zjh.algorithms.StdOut;
+import com.algorithms.stdlib.StdOut;
 
 import java.util.Objects;
 

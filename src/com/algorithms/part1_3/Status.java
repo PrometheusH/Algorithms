@@ -1,10 +1,5 @@
 package com.algorithms.part1_3;
-import com.zjh.algorithms.Draw;
-import com.zjh.algorithms.In;
-import com.zjh.algorithms.StdIn;
-import com.zjh.algorithms.StdOut;
 
-import java.util.Queue;
 
 public class Status {
     public static void main(String[] args) {
