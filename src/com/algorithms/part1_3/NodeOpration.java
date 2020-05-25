@@ -11,7 +11,10 @@ import java.lang.instrument.ClassDefinition;
  * 3.操作所需的时间总是和集合的大小无关
  */
 public class NodeOpration {
-
+    private static class Node<Item>{
+        Item item;
+        Node next;
+    }
     public static void main(String[] args) {
         //构造链表
         Node first = new Node<String>();
