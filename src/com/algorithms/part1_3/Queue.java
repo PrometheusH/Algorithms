@@ -10,26 +10,6 @@ import java.util.Iterator;
  */
 public class Queue<Item> implements Iterable{
 
-    @Override
-    public Iterator iterator() {
-        return null;
-    }
-
-    private class QueueIterator implements Iterator<Item>{
-        private Node current = first;
-        @Override
-        public boolean hasNext() {
-            return current!=null;
-        }
-
-        @Override
-        public Item next() {
-            Item item = current.item;
-            current = current.next;
-            return item;
-        }
-    }
-
     private class Node{
         Item item ;
         Node next;
@@ -39,7 +19,6 @@ public class Queue<Item> implements Iterable{
     private Node last;
     private int N;
 
-    public boolean isEmpty(){return first==null;}//或N==0
     public void enqueue(Item item){
         //向表尾添加元素
         Node oldLast = last;
@@ -63,5 +42,28 @@ public class Queue<Item> implements Iterable{
         N--;
         return item;
     }
+
+    @Override
+    public Iterator iterator() {
+        return new QueueIterator();
+    }
+
+    private class QueueIterator implements Iterator<Item>{
+        private Node current = first;
+        @Override
+        public boolean hasNext() {
+            return current!=null;
+        }
+
+        @Override
+        public Item next() {
+            Item item = current.item;
+            current = current.next;
+            return item;
+        }
+    }
+
+    public boolean isEmpty(){return first==null;}//或N==0
+    public int size(){return N;}
 
 }

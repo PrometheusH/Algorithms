@@ -1,12 +1,13 @@
-package com.algorithms.part1_3;
+package com.algorithms.part1_3.exercise;
 
+import com.algorithms.part1_3.Stack;
 import com.algorithms.stdlib.StdIn;
 
 /**
  * 一个Stack用例，判断括号使用是否正确
  * 本书中用例是带main方法的！
  */
-public class Parentheses {
+public class Parentheses1_3_4 {
     /**
      * 括号种类：(){}[]
      * 不正确的括号使用方式：
