@@ -45,6 +45,7 @@ public class Stack<Item> implements Iterable<Item>{
         first = new Node();
         first.item=item;
         first.next = oldFirst;
+        N++;
     }
 
     public Item pop(){
