@@ -53,7 +53,8 @@ public class ResizingArrayStack<Item> {
 
     public Item pop(){
         Item item = arr[--N];
-        //我觉得这一步没有必要，因为数组的大小是一定的是一整块内存，即使设置为了null，也不会回收
+        //我觉得这一步没有必要，因为数组的大小是一定的是一整块内存，即使设置为了null，也不会回收。主要是为了逻辑意义上，N总是指向下一个空位置。
+        //只有数组中元素是设置为null，还保留有空间的，其他的引用类型，不用了设置为null，就会回收空间。
         arr[N]=null;//避免对象游离
         //N为什么要大于0？因为N等于0，进来的时候N一定是为1的，
         //N为1的时候，arr.length为4，现在arr.length一定为2，会执行resize，而max=0，会导致数组越界异常
